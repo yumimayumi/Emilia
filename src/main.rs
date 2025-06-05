@@ -13,10 +13,10 @@ use tokio_native_tls::TlsConnector as TokioTlsConnector;
 
 const IP_RESOLVER: &str = "speed.cloudflare.com";
 const PATH_RESOLVER: &str = "/meta";
-const PROXY_FILE: &str = "Data/ProxyIsp.txt"; // File input akan tetap sama, tapi kita hanya ambil IP:Port
-const OUTPUT_FILE: &str = "Data/alive.txt";
-const MAX_CONCURRENT: usize = 100;
-const TIMEOUT_SECONDS: u64 = 3;
+const PROXY_FILE: &str = "Data/scan_fofa5_jun.txt"; // File input akan tetap sama, tapi kita hanya ambil IP:Port
+const OUTPUT_FILE: &str = "Data/Alive/scan_fofa5_jun.txt";
+const MAX_CONCURRENT: usize = 50;
+const TIMEOUT_SECONDS: u64 = 5;
 
 type Result<T> = std::result::Result<T, Box<dyn std::error::Error + Send + Sync>>;
 
