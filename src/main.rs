@@ -13,10 +13,10 @@ use tokio_native_tls::TlsConnector as TokioTlsConnector; // Konektor TLS async
 
 const IP_RESOLVER: &str = "speed.cloudflare.com";
 const PATH_RESOLVER: &str = "/meta";
-const PROXY_FILE: &str = "Data/ProxyIsp.txt";
-const OUTPUT_FILE: &str = "Data/alive.txt";
-const MAX_CONCURRENT: usize = 100;
-const TIMEOUT_SECONDS: u64 = 3;
+const PROXY_FILE: &str = "Data/scan_fofa5_jun.txt";
+const OUTPUT_FILE: &str = "Data/alive/scan_fofa5_jun.txt";
+const MAX_CONCURRENT: usize = 50;
+const TIMEOUT_SECONDS: u64 = 10;
 
 // Define a custom error type that implements Send + Sync
 type Result<T> = std::result::Result<T, Box<dyn std::error::Error + Send + Sync>>;
