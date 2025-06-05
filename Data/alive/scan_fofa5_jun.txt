@@ -1,0 +1,2 @@
+172.232.239.151,587,ID,Linode
+103.130.17.116,12336,ID,PT Eka Mas Republik
