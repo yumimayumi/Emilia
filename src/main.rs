@@ -13,8 +13,8 @@ use tokio_native_tls::TlsConnector as TokioTlsConnector; // Konektor TLS async
 
 const IP_RESOLVER: &str = "speed.cloudflare.com";
 const PATH_RESOLVER: &str = "/meta";
-const PROXY_FILE: &str = "Data/IPProxy19-6.txt"; //input
-const OUTPUT_FILE: &str = "Data/hidup/IPProxy19-6.txt";
+const PROXY_FILE: &str = "Data/IPproxyMALAY.txt"; //input
+const OUTPUT_FILE: &str = "Data/hidup/IPproxyMALAY.txt";
 const MAX_CONCURRENT: usize = 100;
 const TIMEOUT_SECONDS: u64 = 5;
 
